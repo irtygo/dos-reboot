@@ -8,6 +8,14 @@ This is a simple reboot command for MS-DOS. It allows you to reboot your PC dire
 - Written in assembly language for MS-DOS.
 - Easy to compile using NASM.
 
+## What is known working
+- QEMU
+- DosBox-X
+## What is known failing
+- DosBox
+
+Anything else is untested
+
 ## Building
 
 To build the program, you only need [NASM](https://www.nasm.us/), the Netwide Assembler. If you don't have it installed, you can download and install it from the link provided.
@@ -31,7 +39,7 @@ Once you have NASM installed, simply clone the repository and run `make` to asse
 
 ## Usage under DOS
 
-Once the program is built, you can use it in a DOS environment (or DOSBox) by running the following command:
+Once the program is built, you can use it in a DOS environment (or DOSBox-X) by running the following command:
 
 ```bash
 reboot.com
